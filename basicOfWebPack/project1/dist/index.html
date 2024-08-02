@@ -57,6 +57,13 @@
       minified buldel of application and provide file name for it.<br />3. Now
       replace this file details in script file with main.js
     </p>
+    <strong>Now to run minified app you need to delete the old build and again create new build which is very tideous task so now we will automeate the process.</strong>
+
+    <h2>Steps to create minified version on every changes done in application. Automating build</h2>
+    <p>1. Install webpack-dev-server</p>
+    <p>2. Create start script in package json "webpack-dev-server --mode development --open"</p>
+    <p>3. In webpack config add devServer key and asign bject which contain the folder name using path.join and add port number</p>
+    <p>4. use command npm start. your dev server will be stared with webpack try to change function it will use hrm to reload changes.</p>
     <script src="output.js"></script>
   </body>
 </html>
