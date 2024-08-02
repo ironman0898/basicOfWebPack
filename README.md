@@ -1,4 +1,4 @@
-# paisa
+# Coin Tracker
 Finance Management Application
 Welcome to Paisa, an open-source financial application designed to help you manage your finances efficiently and provide insightful stock recommendations. With multiple financial tools and tips, Paisa aims to be your comprehensive financial companion.
 
