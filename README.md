@@ -1,6 +1,5 @@
-# Coin Tracker
-Finance Management Application
-Welcome to Paisa, an open-source financial application designed to help you manage your finances efficiently and provide insightful stock recommendations. With multiple financial tools and tips, Paisa aims to be your comprehensive financial companion.
+# Micro Frontend
+Welcome to Micro Frontend, an innovative project designed to demonstrate the concepts and advantages of a microservices architecture applied to frontend development. In this project, we've created multiple independent frontend applications that collaborate seamlessly, offering a comprehensive understanding of how to build and manage complex, scalable web applications using a micro frontend approach.
 
 # Contents
 Getting Started
@@ -19,8 +18,8 @@ npm (Node Package Manager)
 
 # Installation
 1. Clone the Repository
-git clone for dev branch https://github.com/ironman0898/coinTracker.git
-cd paisa
+git clone for feature-abhi branch https://github.com/ironman0898/microfrontend.git
+
 2. Install Dependencies for Each Module
    npm install
 3. Set Up Environment Variables
@@ -35,8 +34,7 @@ We welcome contributions from the community! To contribute:
 Click the "Fork" button at the top of this repository.
 
 2. Clone Your Fork
-git clone for dev branch https://github.com/ironman0898/coinTracker.git
-cd paisa
+git clone for feature-abhi branch https://github.com/ironman0898/microfrontend.git
 
 3. Create a Branch
 git checkout -b feature-name
