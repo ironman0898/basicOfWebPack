@@ -19,7 +19,7 @@ npm (Node Package Manager)
 
 # Installation
 1. Clone the Repository
-git clone https://github.com/yourusername/paisa.git
+git clone https://github.com/ironman0898/coinTracker.git
 cd paisa
 2. Install Dependencies for Each Module
    npm install
@@ -35,7 +35,7 @@ We welcome contributions from the community! To contribute:
 Click the "Fork" button at the top of this repository.
 
 2. Clone Your Fork
-git clone https://github.com/yourusername/paisa.git
+git clone https://github.com/ironman0898/coinTracker.git
 cd paisa
 
 3. Create a Branch
