@@ -4,7 +4,7 @@
   "description": "This app give basic of working of webpack and how we can use this webpack to bundel the application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"webpack"
   },
   "author": "",
   "license": "ISC",
