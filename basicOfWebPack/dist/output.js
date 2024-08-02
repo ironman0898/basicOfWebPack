@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _SomeFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SomeFunction */ \"./src/SomeFunction.js\");\n\r\n\r\nconsole.log((0,_SomeFunction__WEBPACK_IMPORTED_MODULE_0__.someFunction)(), \"App file.\");\r\n\n\n//# sourceURL=webpack://webapp/./src/App.js?");
+
+/***/ }),
+
 /***/ "./src/SomeFunction.js":
 /*!*****************************!*\
   !*** ./src/SomeFunction.js ***!
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   someFunction: () => (/* binding */ someFunction)\n/* harmony export */ });\nconst someFunction = () => {\r\n    console.log(\"Some Function\");\r\n  };\n\n//# sourceURL=webpack://webapp/./src/SomeFunction.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _SomeFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SomeFunction */ \"./src/SomeFunction.js\");\n\r\n\r\n(0,_SomeFunction__WEBPACK_IMPORTED_MODULE_0__.someFunction)();\r\n\n\n//# sourceURL=webpack://webapp/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   someFunction: () => (/* binding */ someFunction)\n/* harmony export */ });\nfunction someFunction () {\r\n    console.log(\"Some Function\");\r\n  };\n\n//# sourceURL=webpack://webapp/./src/SomeFunction.js?");
 
 /***/ })
 
@@ -90,7 +90,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Som
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/App.js");
 /******/ 	
 /******/ })()
 ;

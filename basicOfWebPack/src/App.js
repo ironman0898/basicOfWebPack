@@ -1,3 +1,3 @@
 import { someFunction } from "./SomeFunction";
 
-someFunction();
+console.log(someFunction(), "App file.");
