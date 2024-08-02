@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Som
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   someFunction: () => (/* binding */ someFunction)\n/* harmony export */ });\nconst someFunction = () => {\r\n    console.log(\"Some Function\");\r\n  };\n\n//# sourceURL=webpack://webapp/./src/SomeFunction.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   someFunction: () => (/* binding */ someFunction)\n/* harmony export */ });\nconst someFunction = () => {\r\n    return(\"Some Function\");\r\n  };\n\n//# sourceURL=webpack://webapp/./src/SomeFunction.js?");
 
 /***/ })
 

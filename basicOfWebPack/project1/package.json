@@ -4,8 +4,8 @@
   "description": "This app give basic of working of webpack and how we can use this webpack to bundel the application.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start" : "webpack-dev-server --mode development --open"
+    "build": "webpack --config config.prod.js",
+    "start": "webpack-dev-server --mode development --open --config config.dev.js"
   },
   "author": "",
   "license": "ISC",
