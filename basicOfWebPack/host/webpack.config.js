@@ -10,10 +10,10 @@ module.exports = {
     devServer : {
         static : path.join(__dirname, 'dist'),
         compress:true,
-        port: 3500,
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-          }
+        port: 3600,
+        allowedHosts:[
+            "http://localhost:3500/output.js"
+        ]
     },
     plugins:[
         new HtmlWebpackPlugin({
@@ -24,7 +24,7 @@ module.exports = {
         rules:[
             {
                 test: /\.js$/,
-                exclude: /node_modules/                
+                exclude: /node_modules/              
             }
         ]
     }
